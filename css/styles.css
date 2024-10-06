@@ -46,6 +46,16 @@ h6 {
     color: #ecf0f1;
 }
 
+/* Content container styles */
+.content-container {
+    padding: 20px;
+    max-width: 800px; /* Set a max width for better readability */
+    margin: 0 auto; /* Center the content */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Style for images */
 img {
     max-width: 100%; /* Ensures images do not overflow the container */
