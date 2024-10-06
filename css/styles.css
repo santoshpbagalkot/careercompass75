@@ -46,6 +46,37 @@ h6 {
     color: #ecf0f1;
 }
 
+/* Styles for unordered lists */
+ul {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 20px; /* Add padding to the left */
+    margin: 10px 0; /* Space above and below the list */
+    background-color: #f2f2f2; /* Light background for the list */
+    border-radius: 5px; /* Rounded corners for the background */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+ol {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 20px; /* Add padding to the left */
+    margin: 10px 0; /* Space above and below the list */
+    background-color: #f2f2f2; /* Light background for the list */
+    border-radius: 5px; /* Rounded corners for the background */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+li {
+    margin: 5px 0; /* Space between list items */
+    font-size: 18px; /* Font size for list items */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Optional: Add hover effect for list items */
+li:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
 /* Content container styles */
 .content-container {
     padding: 20px;
@@ -67,7 +98,7 @@ img {
 }
 
 /* Style for embedded videos */
-iframe, video {
+/*iframe, video {
     max-width: 100%;
     height: auto;
     display: block;
@@ -75,7 +106,8 @@ iframe, video {
     border: none;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+}*/
+
 
 /* Style for links */
 a {
