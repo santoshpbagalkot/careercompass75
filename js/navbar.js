@@ -4,12 +4,12 @@ function loadNavbar() {
         <nav class="topnav">
             <!-- Left side with brand name -->
             <div class="navbar-left">
-                <a href="/my-website/index.html" class="brand">Career Compass</a>
+                <a href="https://santoshpbagalkot.github.io/careercompass75/index.html" class="brand">Career Compass</a>
             </div>
             
             <!-- Right side with contact button -->
             <div class="navbar-right">
-                <a href="/my-website/contact.html" class="contact-btn">Contact</a>
+                <a href="https://santoshpbagalkot.github.io/careercompass75/contact.html" class="contact-btn">Contact</a>
             </div>
         </nav>
     `;
