@@ -1,0 +1,170 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styles for all headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #222;
+    margin: 20px 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #34495e;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #7f8c8d;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #95a5a6;
+}
+
+h5 {
+    font-size: 1.25rem;
+    color: #bdc3c7;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #ecf0f1;
+}
+
+/* Style for images */
+img {
+    max-width: 100%; /* Ensures images do not overflow the container */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for embedded videos */
+iframe, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for links */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+
+/* Navbar styles */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; /* Space between left and right */
+    align-items: center;
+    padding: 14px 20px;
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* Ensure it's above other content */
+    height: 60px; /* Define height for the navbar */
+}
+
+.topnav .brand {
+    color: #db0042;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topnav .contact-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.topnav .contact-btn:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topnav .navbar-left,
+    .topnav .navbar-right {
+        margin: 10px 0;
+    }
+}
+
+
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 20px;
+}
+
+.footer-contact {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer-contact:hover {
+    text-decoration: underline;
+}
+
+/* Clear floats for the footer */
+.footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

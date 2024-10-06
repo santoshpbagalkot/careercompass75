@@ -1,0 +1,24 @@
+/* Add this to your existing CSS file */
+
+/* Contact display styles */
+.contact-container {
+    padding: 20px;
+    max-width: 600px; /* Set a max width for the display */
+    margin: 0 auto; /* Center the display */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+    text-align: center;
+}
+
+.contact-info {
+    padding: 10px;
+}
+
+.contact-info p {
+    font-size: 18px; /* Increase font size for better readability */
+    margin: 10px 0; /* Space between lines */
+}
